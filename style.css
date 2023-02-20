@@ -112,15 +112,16 @@ body {
 .lead {
     /* position: absolute; */
     display: flex;
+    justify-content: center;
     width: 984px;
     height: 1005px;
     left: 148px;
     top: 136px;
-    margin: 0 auto;
+    margin: 56px auto 92px auto;
 }
 
 .lead__title {
-    position: absolute;
+    /* position: absolute; */
     width: 720px;
     height: 200px;
     left: 280px;
@@ -132,6 +133,7 @@ body {
     line-height: 100px;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 0;
 }
 
 .lead__subtitle {
@@ -140,16 +142,12 @@ body {
     height: 72px;
     left: 320px;
     top: 368px;
-
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    /* or 120% */
-
     text-align: center;
-
     color: #FFFFFF;
 }
 
@@ -181,6 +179,7 @@ body {
 .intro {
     /* position: absolute; */
     display: flex;
+    margin: 0 442px 92px 148px;
     width: 690px;
     height: 429px;
     left: 148px;
@@ -189,9 +188,9 @@ body {
 
 .intro__title {
     position: absolute;
-    width: 690px;
-    height: 58px;
-    left: 148px;
+    /* width: 690px;
+    height: 58px; */
+    /* left: 148px; */
     top: 1233px;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -199,6 +198,7 @@ body {
     font-size: 54px;
     line-height: 58px;
     color: #FFFFFF;
+    margin-bottom: 40px;
 }
 
 .intro__text {
@@ -213,10 +213,13 @@ body {
     font-size: 16px;
     line-height: 163%;
     color: #FFFFFF;
+    margin-bottom: 33px;
 }
 
 .intro__list {
     position: absolute;
+    list-style-type: none;
+    /* margin-top: 33px; */
     width: 690px;
     height: 90px;
     left: 148px;
@@ -236,18 +239,19 @@ body {
     grid-column-gap: 16px;
     grid-template-rows: repeat(3, 213px);
     grid-row-gap: 16px;
+    margin: 0 48px;
 }
 
 .photo-grid__item {
-
     width: 284px;
     height: 213px;
 }
 
 .places {
     /* position: absolute; */
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
+    margin-top: 92px;
     /* flex-direction: column; */
     justify-content: center;
     /* width: 984px;
