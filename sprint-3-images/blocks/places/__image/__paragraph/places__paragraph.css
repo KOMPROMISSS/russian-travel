@@ -1,0 +1,22 @@
+.places__paragraph {
+    width: 484px;
+    height: 145px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+}
+
+.places__paragraph:nth-child(2) {
+    width: 484px;
+    height: 203px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    margin-top: 26px;
+}
