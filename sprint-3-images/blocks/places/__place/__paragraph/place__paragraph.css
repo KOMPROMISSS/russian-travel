@@ -1,4 +1,4 @@
-.places__paragraph {
+.place__paragraph {
     width: 484px;
     height: 145px;
     font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -9,7 +9,7 @@
     color: #FFFFFF;
 }
 
-.places__paragraph:nth-child(2) {
+.place__paragraph:nth-child(2) {
     width: 484px;
     height: 203px;
     font-family: "Inter", Arial, Helvetica, sans-serif;
