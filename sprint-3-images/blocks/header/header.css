@@ -1,9 +1,7 @@
 .header {
     display: flex;
-    /* height: 52px; */
     justify-content: space-between;
     margin: 28px 48px 0px 48px;
-    /* height: 52px; */
 }
 
 @media screen and (min-width: 768px) {
