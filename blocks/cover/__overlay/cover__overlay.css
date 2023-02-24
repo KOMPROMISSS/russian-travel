@@ -1,0 +1,17 @@
+.cover__overlay {
+    display: flex;
+    flex-direction: column;
+    width: 1184px;
+    height: 740px;
+    text-decoration: none;
+    background-color: rgba(42, 44, 47, 0.3);
+    color: white;
+    z-index: 1;
+    position: relative;
+    transition-duration: 1s;
+    transition-property: opacity;
+}
+
+.cover__overlay:hover {
+    background-color: rgba(42, 44, 47, 0.8);
+}
