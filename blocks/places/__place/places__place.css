@@ -9,3 +9,10 @@
 .places__place:first-child {
     margin-top: 0px;
 }
+/* третий макет */
+@media screen and (max-width: 1280px) {
+    .places__place {
+        display: grid;
+        gap: 32px 48px;
+    }
+}

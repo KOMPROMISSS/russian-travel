@@ -1,5 +1,30 @@
 .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis:content;
+        /* flex-wrap: wrap; */
     margin: 0 442px 92px 148px;
-    width: 690px;
-    height: 429px;
+    /* width: 690px;
+    height: 429px; */
+}
+/* третий макет */
+@media screen and (max-width: 1280px) {
+    .intro {
+        margin: 0 442px 92px 48px;
+    }
+}
+
+/* второй макет */
+@media screen and (max-width: 768px) {
+    .intro {
+        margin: 0 auto 88px auto;
+    }
+}
+/* первый макет */
+@media screen and (max-width: 767px) {
+    .intro { 
+        margin: 0 auto 64px auto;
+    }
 }

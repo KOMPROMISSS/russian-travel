@@ -18,3 +18,9 @@
     color: #FFFFFF;
     margin-top: 26px;
 }
+/* второй макет */
+@media screen and (min-width: 768px) {
+    .places__paragraph {
+        font-size: 16px;
+    }
+}
