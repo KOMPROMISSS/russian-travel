@@ -1,26 +1,40 @@
 .places__paragraph {
-    width: 484px;
-    height: 145px;
+    margin: 0;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 29px;
     color: #FFFFFF;
 }
 
 .places__paragraph:nth-child(2) {
-    width: 484px;
-    height: 203px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 29px;
     color: #FFFFFF;
     margin-top: 26px;
 }
-/* второй макет */
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .places__paragraph {
         font-size: 16px;
+        line-height: 26px;
+    }
+
+    .places__paragraph:nth-child(2) {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        width: 100%;
+    }
+
+    .places__paragraph:nth-child(2) {
+        margin-top: 25px;
     }
 }

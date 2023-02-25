@@ -6,10 +6,20 @@
     color: #FFFFFF;
     margin: 0;
 }
-/* второй макет */
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
     .places__title {
         font-size: 42px;
         line-height: 46px;
     }
 }
+
+@media screen and (max-width: 767px){
+    .places__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+

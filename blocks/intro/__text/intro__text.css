@@ -1,6 +1,4 @@
 .intro__text {
-    /* width: 690px;
-    height: 208px; */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -9,7 +7,6 @@
     margin-bottom: 33px;
 }
 
-/* первый макет */
 @media screen and (max-width: 767px) {
     .intro__text {
         flex-wrap: wrap;
