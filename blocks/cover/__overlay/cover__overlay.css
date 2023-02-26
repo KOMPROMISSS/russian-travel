@@ -9,7 +9,7 @@
     z-index: 1;
     position: relative;
     transition-duration: 0.5s;
-    transition-property: opacity;
+    /* transition-property: opacity; */
     box-sizing: border-box;
 }
 
