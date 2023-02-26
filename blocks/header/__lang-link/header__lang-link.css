@@ -8,6 +8,8 @@
     text-align: right;
     text-decoration-line: underline;
     color: #FFFFFF;
+    transition-duration: 1s;
+    transition-property: opacity;
 }
 
 .header__lang-link:nth-child(2) {
@@ -20,4 +22,8 @@
     text-align: right;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.header__lang-link:hover {
+    opacity: 0.5;
 }
