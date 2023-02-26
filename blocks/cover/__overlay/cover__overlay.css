@@ -1,7 +1,8 @@
 .cover__overlay {
     display: flex;
+    min-height: 740px;
+    max-width: 1280px;
     flex-direction: column;
-    width: 100%;
     text-decoration: none;
     background-color: rgba(42, 44, 47, 0.3);
     color: white;
@@ -15,26 +16,26 @@
     background-color: rgba(42, 44, 47, 0.8);
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
     .cover__overlay {
-        min-height: 740px;
-        max-width: 1280px;
-        margin: 92px auto auto auto;
+        min-height: 640px;
+        max-width: 100%;
+        margin: 92px 0 auto 0;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .cover__overlay {
         min-height: 480px;
-        width: 100%;
-        margin: 90px 0 88px 0;
+        margin-top: 90px;
+        margin-bottom: 88px;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .cover__overlay {
         min-height: 200px;
-        width: 100%;
-        margin: 66px 0 64px 0;
+        margin-top: 66px;
+        margin-bottom: 64px;
     }
 }
