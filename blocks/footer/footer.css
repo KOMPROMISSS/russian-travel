@@ -7,13 +7,17 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .footer {
-        margin: 88px 24px 24px 24px;
+        margin-top: 88px;
+        margin-right: 48px;
+        margin-left: 48px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer {
-        margin: 64px auto 24px 16px;
+        margin-top: 64px;
+        margin-right: auto;
+        margin-left: 16px;
         flex-direction: column;
     }
 }
