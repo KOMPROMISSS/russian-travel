@@ -24,12 +24,7 @@
 
 @media screen and (max-width: 767px) {
     .places__paragraph {
-        font-size: 16px;
         line-height: 26px;
         width: 100%;
-    }
-
-    .places__paragraph:nth-child(2) {
-        margin-top: 25px;
     }
 }
