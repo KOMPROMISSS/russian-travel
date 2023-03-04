@@ -3,4 +3,4 @@
 Проект о путешествии по России.
 Сделан на основе макета из Figma
 
-* [Ссылка на работу в GitHub](https://github.com/KOMPROMISSS/russian-travel.git)
+* [Ссылка на работу в GitHub Pages](https://kompromiss.github.io/russian-travel/)
